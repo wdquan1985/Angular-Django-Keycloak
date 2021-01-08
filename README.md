@@ -16,7 +16,7 @@ Open http://localhost:4200/ on browser.
 pip install virtualenv  
 virtualenv keycloakTestEnv  
 **2.Activate the python virtual env**  
-.\Scripts\activate.bat  
+.\keycloakTestEnv\Scripts\activate.bat  
 **3.Install python dependencies for application**  
 pip install -r requirements.txt  
 **4.Run the application**  
