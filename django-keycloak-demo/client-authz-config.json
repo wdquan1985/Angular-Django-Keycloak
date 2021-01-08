@@ -1,0 +1,28 @@
+{
+    "policies":[
+        {
+            "type":"role",
+            "name":"brucepolicy",
+            "logic":"Positive",
+            "decisionStrategy":"Unanimous",
+            "config":{
+                "roles":[
+                    {
+                        "id":"ROLE_ADMIN",
+                        "required":true
+                    },
+                    {
+                        "id":"ROLE_VIEWER",
+                        "required":true
+                    },
+                    {
+                        "id":"ROLE_OPERATORS",
+                        "required":true
+                    }
+                ]
+            }
+        },
+        {},
+        {}
+    ]
+}

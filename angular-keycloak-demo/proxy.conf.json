@@ -1,0 +1,12 @@
+{
+  "/adminresource/": {
+    "target": "http://localhost:8088/",
+    "secure": true,
+    "logLevel": "debug"
+  },
+  "/api/*": {
+    "target": "http://localhost:8088/",
+    "secure": true,
+    "logLevel": "debug"
+  }
+}
